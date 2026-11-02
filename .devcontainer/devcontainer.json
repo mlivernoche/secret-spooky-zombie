@@ -1,6 +1,11 @@
 {
     "name": "React baseline",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:24-bookworm",
+    "features": {
+        "ghcr.io/nolanjx/devcontainer-features/codex:1": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:4": {},
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
     "remoteUser": "node",
     "updateRemoteUserUID": true,
     "init": true,
