@@ -36,3 +36,9 @@ dist-ssr
 !.vscode/extensions.json
 
 .pnpm-store
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# Test coverage output
+coverage/
