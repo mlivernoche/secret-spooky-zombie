@@ -5,9 +5,14 @@ packages:
 
 catalogMode: prefer
 
+skills:
+  dirs:
+    - .claude/skills
+
 catalog:
   '@tanstack/cli': ^0.72.0
   "@types/node": ^24
+  oxc-transform-react: ^0.156.0
   typescript: ^7.0.2
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0
@@ -18,3 +23,21 @@ peerDependencyRules:
     - vite
   allowedVersions:
     vite: "*"
+minimumReleaseAgeExclude:
+  - "@tanstack/query-core@5.105.1"
+  - "@tanstack/query-devtools@5.105.1"
+  - "@tanstack/react-query-devtools@5.105.1"
+  - "@tanstack/react-query@5.105.1"
+permissions:
+  '@tanstack/cli':
+    skills: true
+  '@tanstack/devtools-vite':
+    skills: true
+  '@tanstack/match-sorter-utils':
+    skills: true
+  '@tanstack/react-router':
+    skills: true
+  '@tanstack/react-start':
+    skills: true
+  '@tanstack/react-table':
+    skills: true
