@@ -35,7 +35,8 @@
                 "VoidZero.vite-plus-extension-pack",
                 "oxc.oxc-vscode",
                 "openai.chatgpt",
-                "bradlc.vscode-tailwindcss"
+                "bradlc.vscode-tailwindcss",
+                "TypeScriptTeam.native-preview"
             ],
             "settings": {
                 "terminal.integrated.defaultProfile.linux": "bash",
@@ -63,7 +64,9 @@
                 "editor.formatOnSaveMode": "file",
                 "editor.codeActionsOnSave": {
                     "source.fixAll.oxc": "explicit"
-                }
+                },
+                "js/ts.experimental.useTsgo": true,
+                "js/ts.tsdk.path": "/home/node/.local/lib/node_modules/tsrs/tsdk"
             }
         }
     },
