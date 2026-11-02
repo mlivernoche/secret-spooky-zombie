@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vp dev --host",
     "generate-routes": "tsr generate",
-    "build": "vite build",
+    "build": "vp build",
     "preview": "vite preview"
   },
   "dependencies": {
